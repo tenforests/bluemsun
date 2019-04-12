@@ -1,0 +1,14 @@
+p div{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.c1:hover{
+    border: 1px black dotted;
+    outline: 1px black dotted;
+    outline-offset: 5px;
+}
+
+.c2:hover::after{
+    content: " <这个是提示！";
+}
